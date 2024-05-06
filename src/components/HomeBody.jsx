@@ -12,7 +12,7 @@ export default function HomeBody() {
             className="rounded-full md:h-52 h-20 md:w-52 w-20 ring-2 ring-white transition ease-in-out delay-150  hover:-translate-y-0 hover:scale-110  duration-500"
           />
           <div>
-            <h1 className="md:text-5xl text-2xl font-medium ">
+            <h1 className="md:text-5xl text-2xl font-medium font-serif">
               Hi I am Abhishek Kumar
             </h1>
             <p className="md:text-xl text-base font-medium pt-3">

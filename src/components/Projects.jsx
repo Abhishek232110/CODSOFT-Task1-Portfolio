@@ -26,7 +26,7 @@ function Projects() {
   return (
     <>
       <div className="md:px-24 pl-3 md:py-16 py-4 px-4 bg-[#222831]">
-        <h1 className=" text-4xl font-medium font-mono text-center">
+        <h1 className=" text-4xl font-medium font-serif text-center">
           Projects
         </h1>
         <div className="md:grid-cols-3 grid grid-cols-1 gap-10 place-items-center pt-10 ">
