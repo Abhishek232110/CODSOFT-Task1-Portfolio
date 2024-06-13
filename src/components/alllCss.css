@@ -10,3 +10,30 @@
   margin-bottom: 1rem;
   background-color: red;
 }
+
+.keyframe {
+  position: relative;
+}
+.keyframe::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  bottom: 0px;
+  left: 0;
+  border-radius: 10px;
+}
+.keyframe:hover::after {
+  animation-name: linemove;
+  animation-duration: 1s;
+}
+@keyframes linemove {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
