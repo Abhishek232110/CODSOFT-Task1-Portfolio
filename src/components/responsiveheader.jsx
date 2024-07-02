@@ -7,7 +7,7 @@ import myimg from "../assets/Abhishek1.jpg";
 
 export default function ResponsiveHeader() {
   const [open, setOpen] = useState(false);
-  console.log("open", open);
+  // console.log("open", open);
   const mediumscreen = "w-[768px]";
   return (
     <>
